@@ -1,0 +1,176 @@
+﻿body {
+    font-family: 'Franklin Gothic';
+    background-color: #dcd7d1;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    margin: 15px 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    margin: 0px 40px;
+}
+
+.profile-titel {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.profile-text {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.main-container{
+    padding: 40px;
+}
+
+.profile-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.main-info-text {
+    color: #333;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.education-item {
+    background: #ede8e2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    .education-item h3 {
+        color: #555;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .education-item p {
+        margin: 5px 0;
+        color: #555;
+    }
+
+.skills {
+    padding: 20px;
+}
+    .skills ul {
+        padding: 0;
+    }
+
+    .skills li {
+        background: #555;
+        color: white;
+        display: inline-block;
+        padding: 8px 15px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+.project-item {
+    background: #ede8e2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    .project-item a {
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        background: #555;
+        display: inline-block;
+        text-decoration: none;
+    }
+        .project-item a:hover {
+            background: #666;
+        }
+    .project-item h3 {
+        color: #555;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .project-item p {
+        margin: 15px 0;
+        color: #555;
+    }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-titel {
+    margin: 0px;
+}
+
+.footer-text {
+    font-weight: bold;
+}
+
+.back-button-img{
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.project-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+    .project-container h2 {
+        color: #333;
+        padding-bottom: 5px;
+        margin: 0px;
+        font-size: 32px;
+    }
+    .project-container img {
+        margin: 5px;
+        max-height: 600px;
+        max-width: 600px;
+    }
+    .project-container p {
+        font-size: 18px;
+    }
+    .project-container a {
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        background: #555;
+        display: inline-block;
+        text-decoration: none;
+    }
