@@ -174,3 +174,6 @@ footer {
         display: inline-block;
         text-decoration: none;
     }
+        .project-container a:hover {
+            background: #666;
+        }
